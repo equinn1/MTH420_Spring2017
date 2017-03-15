@@ -1,0 +1,23 @@
+This is a text file
+
+It doesn't matter what the file extension is, that is just a 'convenience' to allow the operating system to decide what program should be used to open a file.
+
+Often this 'convenience' becomes a stumbling block, for example if the file extension is not known to the operating system.
+
+If you are reading a file with a program, you don't care about any of this.
+
+In most languages, at the lowest level there are two ways to read a file:  
+
+  1)  read the file as text (the file is interpreted as a stream of bytes, usually with some encoding that characters.
+
+  2)  read the file as a stream of binary data, without any assumptions about any additional structure it may have.
+
+Prior to the advent of the world wide web in 1996, encodings that supported only the latin alphabet such as ASCII were adequate for most computer systems, but this is no longer the case.
+
+Global networks must support a much richer set of alphabets, so standards such as unicode (https://en.wikipedia.org/wiki/Unicode) have been developed.
+
+Encoding all of the world's alphabets is very challenging.
+
+For web-based text data, the most common character encoding today is UTF-8.
+
+
